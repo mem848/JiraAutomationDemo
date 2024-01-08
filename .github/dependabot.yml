@@ -9,7 +9,10 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "14:00"
+      time: "10:45"
     open-pull-requests-limit: 100
+    ignore:
+      - dependency-name: "*"
+      update-types: ["version-update:semver-minor"]
     allow:
       - dependency-type: all
