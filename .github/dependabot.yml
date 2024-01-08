@@ -5,11 +5,11 @@
 
 version: 2
 updates:
-  - package-ecosystem: "github-actions" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "maven"
+    directory: "/service"
     schedule:
       interval: "daily"
-      time: "11:00"
+      time: "13:20"
     open-pull-requests-limit: 100
     ignore:
       - dependency-name: "*"
