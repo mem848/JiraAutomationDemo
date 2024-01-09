@@ -14,7 +14,6 @@ updates:
     open-pull-requests-limit: 100
     ignore:
       - dependency-name: "*"
-        update-types:
-          - "minor"
+        update-types: ["version-update:semver-minor"]
     allow:
       - dependency-type: all
