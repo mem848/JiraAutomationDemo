@@ -6,13 +6,15 @@
 version: 2
 updates:
   - package-ecosystem: "maven"
-    directory: "/service"
+    directory: "/demo"
     schedule:
       interval: "daily"
-      time: "08:00"
+      time: "10:00"
+      timezone: "America/New_York"
     open-pull-requests-limit: 100
     ignore:
       - dependency-name: "*"
-        update-types: ["version-update:semver-minor"]
+        update-types:
+          - "minor"
     allow:
       - dependency-type: all
