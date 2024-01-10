@@ -28,7 +28,7 @@
 		<org.mapstruct-processor.version>1.4.2.Final</org.mapstruct-processor.version>
 		<org.projectlombok.lombok-mapstruct-binding>0.2.0</org.projectlombok.lombok-mapstruct-binding>
 		<com.squareup.okhttp3.okhttp.version>4.7.0</com.squareup.okhttp3.okhttp.version>
-		<com.squareup.okhttp3.mockwebserver.version>4.12.0</com.squareup.okhttp3.mockwebserver.version>
+		<com.squareup.okhttp3.mockwebserver.version>3.0.0</com.squareup.okhttp3.mockwebserver.version>
 		<spring-retry.version>2.0.3</spring-retry.version>
 	</properties>
 	<dependencies>
