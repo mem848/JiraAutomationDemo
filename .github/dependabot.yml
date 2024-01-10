@@ -9,7 +9,7 @@ updates:
     directory: "/demo"
     schedule:
       interval: "daily"
-      time: "10:00"
+      time: "10:19"
       timezone: "America/New_York"
     open-pull-requests-limit: 100
     ignore:
